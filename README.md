@@ -39,7 +39,7 @@
    - State_level_traffic(State): Accepts a state name as an input parameter to filter traffic data dynamically (e.g., calculating traffic specifically for "Alaska").
    - sp_top_routes_by_passenger(threshold): Accepts a numerical input to dynamically filter routes that exceed a specific passenger threshold.
 
-### How to Use
+## How to Use
 - Execute the script in a MySQL environment.
 - Ensure your raw data is imported into the MetaData and all_city_pop tables first.
 - Run the table creation and INSERT block to normalize the database.
